@@ -10,5 +10,5 @@ steps:
   - uses: renatochic69/sampctl-action
       with:
       version: '1.11.0'
-  - run: sampctl p build
+  - run: sampctl build
 ```

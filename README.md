@@ -7,7 +7,7 @@ Basic example:
 ```yml
 steps:
   - uses: actions/checkout@v2
-  - uses: renatochic69/sampctl-action
+  - uses: renatochic69/sampctl-action@v1
       with:
       version: '1.11.0'
   - run: sampctl build
